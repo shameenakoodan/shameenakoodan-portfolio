@@ -1,7 +1,45 @@
 .App {
   text-align: center;
 }
-
+.link{
+  text-decoration: none;
+  display: inline;
+  padding: 20px 20px;
+  font-weight: 700;
+  font-size: large;
+  cursor: pointer;
+}
+.hero{
+  height: 600px;
+  background-color: #707a8a;
+}
+.about{
+  height: 600px;
+  background-color: #707a8a;
+}
+.experience{
+  height: 600px;
+  background-color: #707a8a;
+}.projects{
+  height: 600px;
+  background-color: #707a8a;
+}
+.skills{
+  height: 600px;
+  background-color: #707a8a;
+}
+.awards{
+  height: 600px;
+  background-color: #707a8a;
+}
+.education{
+  height: 600px;
+  background-color: #707a8a;
+}
+.contact{
+  height: 600px;
+  background-color: #707a8a;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

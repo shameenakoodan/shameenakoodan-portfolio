@@ -74,3 +74,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*Scroll to top */
+.top-btn-position{
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+}
+.top-btn-style{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-radius: 50%;
+  border : 2px solid #333;
+  color: #333;
+  cursor: pointer;
+}
+.top-btn-style:hover {
+  animation: none;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #fff;
+}

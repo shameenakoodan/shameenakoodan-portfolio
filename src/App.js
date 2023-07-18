@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { useRef } from "react";
-
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   const about = useRef(null);
   const experience = useRef(null);
@@ -18,6 +18,7 @@ function App() {
 }
   return (
     <div className="App">
+      <ScrollToTop/>
       <div className="hero">
         <ul>
           <li className="link" onClick={()=>scrollToSection(about)}>About</li>

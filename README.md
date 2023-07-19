@@ -1,3 +1,12 @@
+# My porfolio
+    This website is my portfolio 
+# Technologies Used
+    React
+    HTML
+    CSS
+    Javascript
+    React hooks
+        UseEffect
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

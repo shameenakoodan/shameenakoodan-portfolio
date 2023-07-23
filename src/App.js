@@ -1,12 +1,13 @@
 import "./App.css";
 
 import Navigation from "./components/Navigation/Navigation";
+
 const App = () => {
 
 
   return (
     <div className="App">
-    
+      <Navigation />
       <section className="parallax-container">
       <div className="card-hero">
           <div className="card-img"></div>
@@ -25,9 +26,11 @@ const App = () => {
         </div>
       </section>
 
-      <section className="buffer"></section>
+      <section className="buffer" id = "about-me">
+        About me
+      </section>
 
-      <section className="parallax-container parallax-container2">
+      <section className="parallax-container parallax-container2" id="experience">
         <div className="card">
           <div className="card-img"></div>
           <h3>Experience</h3>
@@ -70,7 +73,13 @@ const App = () => {
         </div>
       </section>
 
-      <section className="buffer"></section>
+      <section className="buffer" id = "projects"></section>
+      <section className="parallax-container parallax-container2" id="skills">
+      </section>
+      <section className="buffer" id = "awards"></section>
+      <section className="parallax-container parallax-container2" id="education">
+      </section>
+      <section className="buffer" id = "contact"></section>
     </div>
   );
 };

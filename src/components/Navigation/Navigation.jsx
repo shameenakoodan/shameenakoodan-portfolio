@@ -1,16 +1,19 @@
 import "./Navigation.scss";
 const Navigation = ()=>{
-
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    section.scrollIntoView({ behavior: 'smooth' });
+  };
     return (
         <div>
           <ul>
-          <li className="link" >About</li>
-          <li className="link" >Experience</li>
-          <li className="link">Projects</li>
-          <li className="link">Skills</li>
-          <li className="link">Awards</li>
-          <li className="link">Education</li>
-          <li className="link" >Contact</li>
+          <li className="link" onClick={() => scrollToSection('about-me')}>About</li>
+          <li className="link" onClick={() => scrollToSection('experience')}>Experience</li>
+          <li className="link" onClick={() => scrollToSection('projects')}>Projects</li>
+          <li className="link" onClick={() => scrollToSection('skills')}>Skills</li>
+          <li className="link" onClick={() => scrollToSection('awards')}>Awards</li>
+          <li className="link" onClick={() => scrollToSection('education')}>Education</li>
+          <li className="link" onClick={() => scrollToSection('contact')} >Contact</li>
         </ul>
 
         </div>

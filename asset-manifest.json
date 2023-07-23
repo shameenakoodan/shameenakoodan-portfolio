@@ -1,20 +1,31 @@
 {
   "files": {
-    "main.css": "/shameenakoodan-portfolio/static/css/main.8f309ccf.css",
-    "main.js": "/shameenakoodan-portfolio/static/js/main.df52bb2e.js",
+    "main.css": "/shameenakoodan-portfolio/static/css/main.8ae34818.css",
+    "main.js": "/shameenakoodan-portfolio/static/js/main.63f74e9d.js",
     "static/js/787.ffe60da6.chunk.js": "/shameenakoodan-portfolio/static/js/787.ffe60da6.chunk.js",
     "static/media/first.jpg": "/shameenakoodan-portfolio/static/media/first.38adab0f5b150d020bd4.jpg",
     "static/media/web.jpg": "/shameenakoodan-portfolio/static/media/web.e8183bbdf5d376fb447e.jpg",
     "static/media/html.jpg": "/shameenakoodan-portfolio/static/media/html.26974918512b6e906c8a.jpg",
     "static/media/Java.jpg": "/shameenakoodan-portfolio/static/media/Java.f76243167c8f1a1b7973.jpg",
     "static/media/nodejs.jpg": "/shameenakoodan-portfolio/static/media/nodejs.43dc862fe631fb9f417e.jpg",
+    "static/media/React.png": "/shameenakoodan-portfolio/static/media/React.aa2d1b58de9a7180f161.png",
+    "static/media/jenkins.png": "/shameenakoodan-portfolio/static/media/jenkins.5316560ded71c8148c52.png",
+    "static/media/java.png": "/shameenakoodan-portfolio/static/media/java.2be0bca1b95cfc0ce63e.png",
+    "static/media/javascript.png": "/shameenakoodan-portfolio/static/media/javascript.71a23beab09f12064284.png",
+    "static/media/springboot.png": "/shameenakoodan-portfolio/static/media/springboot.953ee24309fa38748981.png",
+    "static/media/nodejs.png": "/shameenakoodan-portfolio/static/media/nodejs.749b8af67e60d6b0dcab.png",
+    "static/media/aws.png": "/shameenakoodan-portfolio/static/media/aws.7cc384726ab6f0b1a39a.png",
+    "static/media/css3.png": "/shameenakoodan-portfolio/static/media/css3.92f3512eed855b5d7ec5.png",
+    "static/media/html5.png": "/shameenakoodan-portfolio/static/media/html5.29a8333c2a5fe3107dfa.png",
+    "static/media/mysql.png": "/shameenakoodan-portfolio/static/media/mysql.5bf2b384c4ccea98170d.png",
+    "static/media/github.png": "/shameenakoodan-portfolio/static/media/github.31b4f10e5e554228d89a.png",
     "index.html": "/shameenakoodan-portfolio/index.html",
-    "main.8f309ccf.css.map": "/shameenakoodan-portfolio/static/css/main.8f309ccf.css.map",
-    "main.df52bb2e.js.map": "/shameenakoodan-portfolio/static/js/main.df52bb2e.js.map",
+    "main.8ae34818.css.map": "/shameenakoodan-portfolio/static/css/main.8ae34818.css.map",
+    "main.63f74e9d.js.map": "/shameenakoodan-portfolio/static/js/main.63f74e9d.js.map",
     "787.ffe60da6.chunk.js.map": "/shameenakoodan-portfolio/static/js/787.ffe60da6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f309ccf.css",
-    "static/js/main.df52bb2e.js"
+    "static/css/main.8ae34818.css",
+    "static/js/main.63f74e9d.js"
   ]
 }

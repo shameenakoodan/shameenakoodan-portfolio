@@ -3,13 +3,11 @@ import "./App.css";
 import Navigation from "./components/Navigation/Navigation";
 
 const App = () => {
-
-
   return (
     <div className="App">
       <Navigation />
       <section className="parallax-container">
-      <div className="card-hero">
+        <div className="card-hero">
           <div className="card-img"></div>
           <h3>Shameena Koodan</h3>
           <div>Full Stack Java Developer</div>
@@ -26,11 +24,11 @@ const App = () => {
         </div>
       </section>
 
-      <section className="buffer" id = "about-me">
+      <section className="buffer" id="about-me">
         About me
       </section>
 
-      <section className="parallax-container parallax-container2" id="experience">
+      <section className="parallax-container parallax-container2" id="projects">
         <div className="card">
           <div className="card-img"></div>
           <h3>Experience</h3>
@@ -45,7 +43,7 @@ const App = () => {
           <div className="card-img"></div>
           <h3>Projects</h3>
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             aliquam, libero sed blandit efficitur, felis turpis rutrum odio, at
             dapibus lorem augue nec arcu
           </p>
@@ -55,7 +53,7 @@ const App = () => {
           <div className="card-img"></div>
           <h3>Skills</h3>
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             aliquam, libero sed blandit efficitur, felis turpis rutrum odio, at
             dapibus lorem augue nec arcu
           </p>
@@ -65,7 +63,7 @@ const App = () => {
           <div className="card-img"></div>
           <h3>Awards</h3>
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             aliquam, libero sed blandit efficitur, felis turpis rutrum odio, at
             dapibus lorem augue nec arcu
           </p>
@@ -73,13 +71,51 @@ const App = () => {
         </div>
       </section>
 
-      <section className="buffer" id = "projects"></section>
-      <section className="parallax-container parallax-container2" id="skills">
+      <section className="buffer" id="experience"></section>
+      <section className="parallax-container parallax-container3" id="skills">
+        <div className="skill-card">
+          <div className="skill-card-img"></div>
+        </div>
+        <div className="skill-card">
+          <div className="skill-card-img"></div>
+        </div>
+        <div className="skill-card">
+          <div className="skill-card-img"></div>
+        </div>
+        <div className="skill-card">
+          <div className="skill-card-img"></div>
+        </div>
+        <div className="skill-card">
+          <div className="skill-card-img"></div>
+        </div>
+        <div className="skill-card">
+          <div className="skill-card-img"></div>
+        </div>
+        <div className="skill-card">
+          <div className="skill-card-img"></div>
+        </div>
+        <div className="skill-card">
+          <div className="skill-card-img"></div>
+        </div>
+        <div className="skill-card">
+          <div className="skill-card-img"></div>
+        </div>
+        <div className="skill-card">
+          <div className="skill-card-img"></div>
+        </div>
+        <div className="skill-card">
+          <div className="skill-card-img"></div>
+        </div>
+        <div className="skill-card">
+          <div className="skill-card-img"></div>
+        </div>
       </section>
-      <section className="buffer" id = "awards"></section>
-      <section className="parallax-container parallax-container2" id="education">
-      </section>
-      <section className="buffer" id = "contact"></section>
+      <section className="buffer" id="awards"></section>
+      <section
+        className="parallax-container parallax-container2"
+        id="education"
+      ></section>
+      <section className="buffer" id="contact"></section>
     </div>
   );
 };

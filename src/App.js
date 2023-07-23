@@ -1,8 +1,9 @@
-import logo from "./logo.svg";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import { useRef } from "react";
 import ScrollToTop from "./components/ScrollToTop";
-function App() {
+import Navigation from "./components/Navigation/Navigation";
+const App = () => {
   const about = useRef(null);
   const experience = useRef(null);
   const projects = useRef(null);
@@ -10,35 +11,74 @@ function App() {
   const awards = useRef(null);
   const education = useRef(null);
   const contact = useRef(null);
-  const scrollToSection = (elementRef) =>{
+  const scrollToSection = (elementRef) => {
     window.scroll({
-        top:elementRef.current.offsetTop,
-        behaviour: "smooth"
+      top: elementRef.current.offsetTop,
+      behaviour: "smooth",
     });
-}
+  };
   return (
     <div className="App">
-      <ScrollToTop/>
-      <div className="hero">
-        <ul>
-          <li className="link" onClick={()=>scrollToSection(about)}>About</li>
-          <li className="link" onClick={()=>scrollToSection(experience)}>Experience</li>
-          <li className="link" onClick={()=>scrollToSection(projects)}>Projects</li>
-          <li className="link" onClick={()=>scrollToSection(skills)}>Skills</li>
-          <li className="link" onClick={()=>scrollToSection(awards)}>Awards</li>
-          <li className="link" onClick={()=>scrollToSection(education)}>Education</li>
-          <li className="link" onClick={()=>scrollToSection(contact)}>Contact</li>
-        </ul>
+      <div className='"navigation'>
+        <Navigation />
       </div>
-      <div className="about" ref={about} >About</div>
-      <div className="experience" ref={experience}>Experience</div>
-      <div className="projects" ref={projects}>Projects</div>
-      <div className="skills" ref={skills}>Skills</div>
-      <div className="awards" ref={awards}>Awards</div>
-      <div className="education" ref={education}>Education</div>
-      <div className="contact" ref={contact}>Contact</div>
+      <section className="parallax-container">
+        <div className="content">
+          <div>
+            <h1>Shameena Koodan</h1>
+          </div>
+          <div>Full Stack Java Developer</div>
+        </div>
+      </section>
+
+      <section className="buffer"></section>
+
+      <section className="parallax-container parallax-container2">
+        <div className="card">
+          <div className="card-img"></div>
+          <h3>Experience</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            aliquam, libero sed blandit efficitur, felis turpis rutrum odio, at
+            dapibus lorem augue nec arcu
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div className="card">
+          <div className="card-img"></div>
+          <h3>Projects</h3>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            aliquam, libero sed blandit efficitur, felis turpis rutrum odio, at
+            dapibus lorem augue nec arcu
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div className="card">
+          <div className="card-img"></div>
+          <h3>Skills</h3>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            aliquam, libero sed blandit efficitur, felis turpis rutrum odio, at
+            dapibus lorem augue nec arcu
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div className="card">
+          <div className="card-img"></div>
+          <h3>Awards</h3>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            aliquam, libero sed blandit efficitur, felis turpis rutrum odio, at
+            dapibus lorem augue nec arcu
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+      </section>
+
+      <section className="buffer"></section>
     </div>
   );
-}
+};
 
 export default App;

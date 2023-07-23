@@ -11,4 +11,5 @@
     Sass
         npm install sass
     Parallax Scrolling using CSS
+    Added icons from icon finder
     

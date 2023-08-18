@@ -8,8 +8,8 @@ const Navigation = ()=>{
         <div>
           <ul>
           <li className="link" onClick={() => scrollToSection('about-me')}>About</li>
-          <li className="link" onClick={() => scrollToSection('experience')}>Experience</li>
           <li className="link" onClick={() => scrollToSection('projects')}>Projects</li>
+          <li className="link" onClick={() => scrollToSection('experience')}>Experience</li>
           <li className="link" onClick={() => scrollToSection('skills')}>Skills</li>
           <li className="link" onClick={() => scrollToSection('awards')}>Awards</li>
           <li className="link" onClick={() => scrollToSection('education')}>Education</li>

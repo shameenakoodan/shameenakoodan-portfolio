@@ -1,78 +1,47 @@
 import "./App.css";
-
+import Popup from "reactjs-popup";
 import Navigation from "./components/Navigation/Navigation";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the carousel styles
+import About from "./components/About/About";
+import Projects from "./components/Projects/Project";
 
 const App = () => {
+  const image1 = process.env.PUBLIC_URL + "/images/handyman-homepage.png";
   return (
     <div className="App">
       <Navigation />
-      <section className="parallax-container">
-        <div className="card-hero">
-          <div className="card-img"></div>
-          <h3>Shameena Koodan</h3>
-          <div>Full Stack Java Developer</div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-            aliquam, libero sed blandit efficitur, felis turpis rutrum odio, at
-            dapibus lorem augue nec arcu
-          </p>
-        </div>
-        <div className="content">
-          <div>
-            <h1></h1>
-          </div>
-        </div>
+      <section className="parallax-container parallax-container1" id = "about-me">
+        <About />
       </section>
-
-      <section className="buffer" id="about-me">
-        About me
-      </section>
-
-      <section className="parallax-container parallax-container2" id="projects">
-        <div className="card">
-          <div className="card-img"></div>
-          <h3>Experience</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-            aliquam, libero sed blandit efficitur, felis turpis rutrum odio, at
-            dapibus lorem augue nec arcu
-          </p>
-          <a href="#">Learn more</a>
-        </div>
-        <div className="card">
-          <div className="card-img"></div>
-          <h3>Projects</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-            aliquam, libero sed blandit efficitur, felis turpis rutrum odio, at
-            dapibus lorem augue nec arcu
-          </p>
-          <a href="#">Learn more</a>
-        </div>
-        <div className="card">
-          <div className="card-img"></div>
-          <h3>Skills</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-            aliquam, libero sed blandit efficitur, felis turpis rutrum odio, at
-            dapibus lorem augue nec arcu
-          </p>
-          <a href="#">Learn more</a>
-        </div>
-        <div className="card">
-          <div className="card-img"></div>
-          <h3>Awards</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-            aliquam, libero sed blandit efficitur, felis turpis rutrum odio, at
-            dapibus lorem augue nec arcu
-          </p>
-          <a href="#">Learn more</a>
-        </div>
+      <section  id="projects">
+        <Projects />
       </section>
 
       <section className="buffer" id="experience"></section>
       <section className="parallax-container parallax-container3" id="skills">
+        <div className="skill-card">
+          <img src="/"></img>
+          <div className="skill-card-img"></div>
+        </div>
+        <div className="skill-card">
+          <div className="skill-card-img"></div>
+        </div>
+        <div className="skill-card">
+          <div className="skill-card-img"></div>
+        </div>
+        <div className="skill-card">
+          <div className="skill-card-img"></div>
+        </div>
+        <div className="skill-card">
+          <div className="skill-card-img"></div>
+        </div>
+        <div className="skill-card">
+          <div className="skill-card-img"></div>
+        </div>
+        <div className="skill-card">
+          <div className="skill-card-img"></div>
+        </div>
         <div className="skill-card">
           <div className="skill-card-img"></div>
         </div>

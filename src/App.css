@@ -11,7 +11,6 @@ body {
 
 .parallax-container {
   display: flex;
-  min-height: 100vh;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -20,11 +19,9 @@ body {
   background-attachment: fixed;
 
   /*background-image: url(https://images.unsplash.com/photo-1519120944692-1a8d8cfc107f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80);*/
-  background-image: url();
   backdrop-filter: blur(10px);
   background-position: center;
   background-size: cover;
-  color: var(--color);
   row-gap: 4rem;
 
   text-align: center;
@@ -48,9 +45,6 @@ body {
 .parallax-container {
   flex-direction: row;
   flex-wrap: wrap;
-
-  padding: 6rem 0;
-  gap: 1.6em;
 }
 h1 {
   font-size: 3rem;
@@ -127,22 +121,22 @@ h3 {
 
 .card:nth-of-type(1) .card-img {
   /*background-image: url(https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);*/
-  background-image: url(../public/images/Java.jpg);
+ /*background-image: url(../public/images/Java.jpg);*/
 }
 
 .card:nth-of-type(2) .card-img {
  /* background-image: url(https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1606&q=80);*/
- background-image: url(../public/images/nodejs.jpg);
+ /*background-image: url(../public/images/nodejs.jpg);*/
 }
 
 .card:nth-of-type(3) .card-img {
   /*background-image: url(https://images.unsplash.com/photo-1628746404106-4d3843b231b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2F2aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60);*/
-  background-image: url(../public/images/web.jpg);
+ /* background-image: url(../public/images/web.jpg);*/
 }
 
 .card:nth-of-type(4) .card-img {
   /*background-image: url(https://images.unsplash.com/photo-1496429862132-5ab36b6ae330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=80);*/
-  background-image: url(../public/images/html.jpg);
+ /* background-image: url(../public/images/html.jpg);*/
 }
 .App {
   text-align: center;
@@ -212,6 +206,7 @@ h3 {
   color: #61dafb;
 }
 
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -235,6 +230,8 @@ h3 {
 
 .skill-card:nth-of-type(1) .skill-card-img {
   background-image: url(../public/icons/css3.png);
+  width: 10px;
+
 }
 
 .skill-card:nth-of-type(2) .skill-card-img {
@@ -272,3 +269,59 @@ h3 {
  .skill-card:nth-of-type(12) .skill-card-img {
   background-image: url(../public/icons/jenkins.png);
  }
+ .skill-card:nth-of-type(13) .skill-card-img {
+  background-image: url(../public/icons/mysqlworkbench.png);
+ }
+ .skill-card:nth-of-type(14) .skill-card-img {
+  background-image: url(../public/icons/thymeleaf.png);
+ }
+ .skill-card:nth-of-type(15) .skill-card-img {
+  background-image: url(../public/icons/spring-security.png);
+ }
+ .skill-card:nth-of-type(16) .skill-card-img {
+  background-image: url(../public/icons/IntelliJ_IDEA_Icon.svg.png);
+ }
+ .skill-card:nth-of-type(17) .skill-card-img {
+  background-image: url(../public/icons/postman.png);
+ }
+ .skill-card:nth-of-type(18) .skill-card-img {
+  background-image: url(../public/icons/RestApi.png);
+ }
+ .skill-card:nth-of-type(19) .skill-card-img {
+  background-image: url(../public/icons/visual\ studio.png);
+ }
+ .modal{
+  width: 1000px;
+  height: 500px;
+  border: none;
+  background:rgba(0,0,0,0.7);
+  border-radius: 10px;
+ }
+ .close{
+  background: url(../public/icons/cross.png);
+  width:40px;
+  height: 40px;
+  border:none;
+}
+.close-div{
+  text-align: right;
+  margin: 0;
+}
+.content{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.about-me
+{
+  display: flex;
+  flex-direction: row;
+}
+.parallax-container1{
+  color: white;
+}
+#about-me{
+  background: url(/public/images/creative-geometric-design-space_53876-89787.avif) no-repeat;
+  
+}

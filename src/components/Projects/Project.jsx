@@ -7,7 +7,6 @@ const Projects = () => {
         process.env.PUBLIC_URL + "/images/handyman-homepage.png",
         process.env.PUBLIC_URL + "/images/handyman-homepage.png"
       ];
-    
     return (
         <div className="parallax-container parallax-container2">
             <div className="card">
@@ -19,7 +18,7 @@ const Projects = () => {
                     dapibus lorem augue nec arcu
                 </p>
                 <div>
-                    <Popup content={imageUrls}/>
+                    <Popup imageUrls={imageUrls}/>
                 </div>
             </div>
             <div className="card">
@@ -31,7 +30,6 @@ const Projects = () => {
                     dapibus lorem augue nec arcu
                 </p>
                 <div>
-                    <Popup />
                 </div>
             </div>
             <div className="card">
@@ -43,7 +41,6 @@ const Projects = () => {
                     dapibus lorem augue nec arcu
                 </p>
                 <div>
-                    <Popup />
                 </div>
             </div>
             <div className="card">
@@ -55,7 +52,6 @@ const Projects = () => {
                     dapibus lorem augue nec arcu
                 </p>
                 <div>
-                    <Popup />
                 </div>
             </div>
         </div>

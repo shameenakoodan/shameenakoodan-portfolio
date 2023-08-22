@@ -1,4 +1,6 @@
 import Popup from "../Popup/Popup";
+import  "./Projects.scss";
+
 
 const Projects = () => {
     const image1 = process.env.PUBLIC_URL + "/images/handyman-homepage.png";

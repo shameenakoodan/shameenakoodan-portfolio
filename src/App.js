@@ -8,7 +8,6 @@ import Projects from "./components/Projects/Project";
 
 const App = () => {
   const image1 = process.env.PUBLIC_URL + "/images/handyman-homepage.png";
-  const handyman_logo = process.env.PUBLIC_URL +"/images/logo_with_caption.png";
   return (
     <div className="App">
       <Navigation />

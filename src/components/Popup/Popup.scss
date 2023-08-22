@@ -1,7 +1,6 @@
 /* src/Popup.css */
 .popup-container {
     text-align: center;
-    margin-top: 100px;
   }
   
   .popup {
@@ -23,6 +22,7 @@
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     position: relative;
+    width: 800px;
   }
   
   .close-button {
@@ -37,4 +37,8 @@
     background: none;
     font-size: 1rem;
     font-weight: bold;
+  }
+  .description{
+    width: 100%;
+    text-align: left;
   }

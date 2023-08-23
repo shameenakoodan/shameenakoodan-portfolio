@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Popup.scss'; // Create this file in the same directory for styling
-import Carousel from '../../Carousel/Carousel';
+import Carousel from '../Carousel/Carousel';
 
-const Popup = ({ imageUrls }) => {
+const Popup = ({ imageUrls,heading,description,github }) => {
   const [isPopupOpen, setPopupOpen] = useState(false);
 
   const openPopup = () => {
@@ -22,8 +22,7 @@ const Popup = ({ imageUrls }) => {
             <span className="close-button" onClick={closePopup}>
               &times;
             </span>
-            <Carousel slides={imageUrls} />
-          
+            <Carousel slides={imageUrls} heading={heading} description={description} github={github}/>
           </div>
         </div>
       )}

@@ -6,16 +6,13 @@ A stunning web portfolio showcasing my work, built using React, Parallax Scrolli
 
 ## Table of Contents
 
-- [Demo](#demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 
-## Demo
 
-Insert links to screenshots, gifs, or live demos of your portfolio here.
 
 ## Features
 

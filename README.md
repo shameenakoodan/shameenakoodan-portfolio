@@ -1,15 +1,42 @@
-# My porfolio
-    This website is my portfolio 
-# Technologies Used
-    React
-    HTML
-    CSS
-    Javascript
-    React hooks
-        UseEffect to display arrow button to go to top
-        UseEffect to smoothly moove to different divs when clicking navigation links
-    Sass
-        npm install sass
-    Parallax Scrolling using CSS
-    Added icons from icon finder
-    
+# Web Portfolio
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+A stunning web portfolio showcasing my work, built using React, Parallax Scrolling, custom popups, custom carousels, and Sass.
+
+## Table of Contents
+
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+
+## Demo
+
+Insert links to screenshots, gifs, or live demos of your portfolio here.
+
+## Features
+
+- Eye-catching parallax scrolling effects.
+- Custom popups to display project details.
+- Interactive custom carousel for project showcases.
+- Stylish styling with Sass.
+- Responsive design for various screen sizes.
+
+## Technologies Used
+
+- React
+- Parallax Scrolling
+- Custom Popup Component
+- Custom Carousel Component
+- Sass (SCSS)
+- Other libraries and dependencies
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-portfolio.git

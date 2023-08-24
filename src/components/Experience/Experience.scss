@@ -6,3 +6,41 @@
 .work-experience{
     text-align: left;
 }
+.logo-experience{
+    width: 50px;
+    height : 50px;
+}
+.exp-section{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 20px;
+}
+.left-exp{
+    width: 20%;
+}
+.right-exp
+{
+    width: 80%;
+}
+.skills-list{
+    list-style: none;
+    display: flex;
+    flex-wrap :wrap;
+    margin: 0;
+    padding: 0;
+}
+.skills-list li{
+        border-radius: 14px;
+        padding: 5px;
+        margin: 3px;
+        font-size: 14px;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: white;
+}
+.heading-exp{
+    font-weight: bold;
+    font-style: italic;
+    color:#6665a1;
+}

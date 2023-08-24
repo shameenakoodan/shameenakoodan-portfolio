@@ -36,4 +36,4 @@ A stunning web portfolio showcasing my work, built using React, Parallax Scrolli
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/shameenakoodan/shameenakoodan-portfolio

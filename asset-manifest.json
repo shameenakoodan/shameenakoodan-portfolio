@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/shameenakoodan-portfolio/static/css/main.4bb122d2.css",
-    "main.js": "/shameenakoodan-portfolio/static/js/main.bd867d70.js",
+    "main.css": "/shameenakoodan-portfolio/static/css/main.12b8804a.css",
+    "main.js": "/shameenakoodan-portfolio/static/js/main.e7d909cd.js",
     "static/js/787.ffe60da6.chunk.js": "/shameenakoodan-portfolio/static/js/787.ffe60da6.chunk.js",
     "static/media/first.jpg": "/shameenakoodan-portfolio/static/media/first.38adab0f5b150d020bd4.jpg",
     "static/media/Weather_logo.png": "/shameenakoodan-portfolio/static/media/Weather_logo.5fa6e7112b607bdcd4d7.png",
     "static/media/logo_with_caption.png": "/shameenakoodan-portfolio/static/media/logo_with_caption.72dc554eb9c0216efca8.png",
     "static/media/hangman_logo.png": "/shameenakoodan-portfolio/static/media/hangman_logo.b36878f84fff7d752419.png",
     "index.html": "/shameenakoodan-portfolio/index.html",
-    "main.4bb122d2.css.map": "/shameenakoodan-portfolio/static/css/main.4bb122d2.css.map",
-    "main.bd867d70.js.map": "/shameenakoodan-portfolio/static/js/main.bd867d70.js.map",
+    "main.12b8804a.css.map": "/shameenakoodan-portfolio/static/css/main.12b8804a.css.map",
+    "main.e7d909cd.js.map": "/shameenakoodan-portfolio/static/js/main.e7d909cd.js.map",
     "787.ffe60da6.chunk.js.map": "/shameenakoodan-portfolio/static/js/787.ffe60da6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bb122d2.css",
-    "static/js/main.bd867d70.js"
+    "static/css/main.12b8804a.css",
+    "static/js/main.e7d909cd.js"
   ]
 }

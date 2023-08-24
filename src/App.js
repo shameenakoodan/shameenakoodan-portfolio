@@ -7,6 +7,7 @@ import Experience from "./components/Experience/Experience";
 import Skills from "./components/Skills/Skills";
 import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
+import Certification from "./components/Certification/Certification";
 
 const App = () => {
   return (
@@ -32,9 +33,13 @@ const App = () => {
       <section className="parallax-container parallax-container3" id="skills">
         <Skills />
       </section>
-      <section className="parallax-container parallax-container2" id="contact">
+      <section className="parallax-container parallax-container2" id="certifications">
+        <Certification />
+      </section>
+      <section className="parallax-container parallax-container3" id="contact">
         <Contact />
       </section>
+      
     </div>
   );
 };

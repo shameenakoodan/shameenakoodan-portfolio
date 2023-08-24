@@ -14,8 +14,8 @@ const Skills = () => {
   const nodejs = process.env.PUBLIC_URL+ "/icons/nodejs.png";
   const postman = process.env.PUBLIC_URL+ "/icons/postman.png";
   const react = process.env.PUBLIC_URL+ "/icons/React.png";
-  const springsecurity = process.env.PUBLIC_URL+ "/icons/spring-security.png";
-  const thymeleaf = process.env.PUBLIC_URL+ "/icons/thymeleaf.png";
+  const springsecurity = process.env.PUBLIC_URL+ "/icons/spring-security-PhotoRoom.png";
+  const thymeleaf = process.env.PUBLIC_URL+ "/icons/icons8-spring-boot-96.png";
   const visualstudio = process.env.PUBLIC_URL+ "/icons/visualstudio.png";
   const sass = process.env.PUBLIC_URL+ "/icons/sass.png";
 

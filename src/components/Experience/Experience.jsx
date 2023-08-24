@@ -4,7 +4,7 @@ const Experience = () => {
   const siva = process.env.PUBLIC_URL + "/logo/siva.png";
   return (
     <div className="custom-font work-experience">
-      <h2>Experience</h2>
+      <div className="skills-heading">Experience</div>
       <div className="exp-section">
         <div className="left-exp heading-exp">Jul 2022 - Dec 2022</div>
         <div className="right-exp">

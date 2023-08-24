@@ -11,8 +11,8 @@ const Navigation = ()=>{
           <li className="link" onClick={() => scrollToSection('projects')}>Projects</li>
           <li className="link" onClick={() => scrollToSection('experience')}>Experience</li>
           <li className="link" onClick={() => scrollToSection('skills')}>Skills</li>
-          <li className="link" onClick={() => scrollToSection('certification')}>Certifications</li>
           <li className="link" onClick={() => scrollToSection('education')}>Education</li>
+          <li className="link" onClick={() => scrollToSection('certification')}>Certifications</li>
           <li className="link" onClick={() => scrollToSection('contact')} >Contact</li>
         </ul>
 

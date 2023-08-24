@@ -5,6 +5,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Project";
 import Experience from "./components/Experience/Experience";
 import Skills from "./components/Skills/Skills";
+import Education from "./components/Education/Education";
 
 const App = () => {
   return (
@@ -19,13 +20,16 @@ const App = () => {
       <section className="buffer" id="experience">
         <Experience />
       </section>
+      <div className="skills-heading">Skill Set</div>
       <section className="parallax-container parallax-container3" id="skills">
         <Skills />
       </section>
       <section
         className="parallax-container parallax-container2"
         id="education"
-      ></section>
+      >
+        <Education />
+      </section>
       <section className="buffer" id="contact"></section>
     </div>
   );

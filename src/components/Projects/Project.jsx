@@ -96,7 +96,7 @@ const Projects = () => {
           />
         </div>
       </div>
-      <div className="card">
+     {/* <div className="card">
         <div className="card-img"></div>
         <h3>Projects</h3>
         <p>
@@ -105,7 +105,7 @@ const Projects = () => {
           dapibus lorem augue nec arcu
         </p>
         <div></div>
-      </div>
+      </div>*/}
     </div>
   );
 };

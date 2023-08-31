@@ -15,7 +15,7 @@ const Contact =()=>{
         <div className="exp-section">
           <div className="right-exp">
             <div className="heading-exp">
-            <a href=" www.linkedin.com/in/shameenakoodan" target="_blank" rel="noopener noreferrer" className="style-button">Linked In</a>    
+            <a href="http://www.linkedin.com/in/shameenakoodan" target="_blank" rel="noopener noreferrer" className="style-button">Linked In</a>    
             </div>
            
           </div>

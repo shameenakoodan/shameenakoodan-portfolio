@@ -22,10 +22,7 @@ const VPopup = ({ imageUrls, heading, description, github }) => {
             <span className="close-button" onClick={closePopup}>
               &times;
             </span>
-            <video controls autoplay width="600">
-              <source src={todo_video} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            
             <div className="description">
         <h2 class="curved-underline">
           {heading}

@@ -25,6 +25,7 @@ const Projects = () => {
   const hangman_github = "https://github.com/shameenakoodan/HANGMAN.git";
   const todo_heading = "Todo - Streamline Your Life, One Task at a Time!";
   const todo_description = "Powered by React for frontend, Spring Boot with MySQL for backend, and featuring seamless task management, the TodoMaster application offers a comprehensive and user-friendly task management experience. This application empowers users to effortlessly organize their to-do lists, add new tasks, edit details, mark tasks as completed, and efficiently remove completed or unnecessary items. With a perfect fusion of frontend and backend technologies, TodoMaster ensures a streamlined and responsive interface for users to prioritize tasks and stay in control of their daily commitments. Witness the efficiency of Spring Boot, MySQL, and React as they come together to simplify task management and boost productivity, making TodoMaster the ultimate solution for keeping your life organized and tasks on track";
+  const todo_github = "https://github.com/shameenakoodan/todo-frontend";
   const imageUrls = [
     process.env.PUBLIC_URL + "/images/handyman/handyman-homepage.png",
     process.env.PUBLIC_URL + "/images/handyman/handymandashboard.png",
@@ -112,7 +113,7 @@ const Projects = () => {
           <VPopup
             heading={todo_heading}
             description={todo_description}
-            github={hangman_github}
+            github={todo_github}
           />
         </div>
       </div>

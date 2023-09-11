@@ -106,6 +106,7 @@ h3 {
 
   background-color: white;
   box-shadow: 0 29px 38px -15px rgb(0 0 0 / 43%);
+  height: 600px;
 }
 
 .card-img {
@@ -129,8 +130,7 @@ h3 {
 }
 
 .card:nth-of-type(4) .card-img {
-  /*background-image: url(https://images.unsplash.com/photo-1496429862132-5ab36b6ae330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=80);*/
- /* background-image: url(../public/images/html.jpg);*/
+  background-image: url(../public/images/Todo/Todo.png);
 }
 .App {
   text-align: center;

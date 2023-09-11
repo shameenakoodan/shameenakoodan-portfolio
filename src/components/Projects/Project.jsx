@@ -1,4 +1,5 @@
 import Popup from "../Popup/Popup";
+import VPopup from "../VPopUp/VPopUp";
 import "./Projects.scss";
 
 const Projects = () => {
@@ -18,9 +19,12 @@ const Projects = () => {
     "https://github.com/shameenakoodan/find-weather-react.git";
   const weather_github_backend =
     "https://github.com/shameenakoodan/find-the-weather-api.git";
-  const hangman_description = "Dive into the captivating world of word-guessing with my Hangman Game project. Crafted using Vanilla JavaScript, HTML, and SCSS, this classic game is brought to life with a modern twist. What sets this game apart is its single-page interface that smoothly shifts between various stages without navigating away from the page. The dynamically generated DOM elements ensure a unified experience that mimics the sensation of exploring separate pages.Key features include : Engaging Gameplay, Multiple Categories, Responsive Design, Immersive User Interface. Play, enjoy, and experience the thrill of word-guessing across four unique categories bringing back nostalgia.";
+  const hangman_description =
+    "Dive into the captivating world of word-guessing with my Hangman Game project. Crafted using Vanilla JavaScript, HTML, and SCSS, this classic game is brought to life with a modern twist. What sets this game apart is its single-page interface that smoothly shifts between various stages without navigating away from the page. The dynamically generated DOM elements ensure a unified experience that mimics the sensation of exploring separate pages.Key features include : Engaging Gameplay, Multiple Categories, Responsive Design, Immersive User Interface. Play, enjoy, and experience the thrill of word-guessing across four unique categories bringing back nostalgia.";
   const hangman_heading = "Hangman Game - Wordplay Reimagined";
-  const hangman_github ="https://github.com/shameenakoodan/HANGMAN.git";
+  const hangman_github = "https://github.com/shameenakoodan/HANGMAN.git";
+  const todo_heading = "Todo - Streamline Your Life, One Task at a Time!";
+  const todo_description = "Powered by React for frontend, Spring Boot with MySQL for backend, and featuring seamless task management, the TodoMaster application offers a comprehensive and user-friendly task management experience. This application empowers users to effortlessly organize their to-do lists, add new tasks, edit details, mark tasks as completed, and efficiently remove completed or unnecessary items. With a perfect fusion of frontend and backend technologies, TodoMaster ensures a streamlined and responsive interface for users to prioritize tasks and stay in control of their daily commitments. Witness the efficiency of Spring Boot, MySQL, and React as they come together to simplify task management and boost productivity, making TodoMaster the ultimate solution for keeping your life organized and tasks on track";
   const imageUrls = [
     process.env.PUBLIC_URL + "/images/handyman/handyman-homepage.png",
     process.env.PUBLIC_URL + "/images/handyman/handymandashboard.png",
@@ -85,7 +89,9 @@ const Projects = () => {
         <div className="card-img"></div>
         <h3>HangMan Game</h3>
         <p>
-          Experience the timeless thrill of word-guessing with my Hangman Game .Its single-page interface transitions between different stages without leaving the page.
+          Experience the timeless thrill of word-guessing with my Hangman Game
+          .Its single-page interface transitions between different stages
+          without leaving the page.
         </p>
         <div>
           <Popup
@@ -96,16 +102,20 @@ const Projects = () => {
           />
         </div>
       </div>
-     {/* <div className="card">
+      <div className="card">
         <div className="card-img"></div>
-        <h3>Projects</h3>
+        <h3>Todo Application</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-          aliquam, libero sed blandit efficitur, felis turpis rutrum odio, at
-          dapibus lorem augue nec arcu
+        Introducing an interactive and dynamic Todo app that revolutionizes task management. This feature-rich app combines task creation, deletion, and organization  
         </p>
-        <div></div>
-      </div>*/}
+        <div>
+          <VPopup
+            heading={todo_heading}
+            description={todo_description}
+            github={hangman_github}
+          />
+        </div>
+      </div>
     </div>
   );
 };

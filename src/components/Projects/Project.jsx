@@ -30,6 +30,7 @@ const Projects = () => {
   const handyman_video = process.env.PUBLIC_URL + "/videos/HandyMan.mov";
   const handy_man_screenshot = process.env.PUBLIC_URL+"/images/handyman/handyman-homepage_50.png";
   const weather_screenshot =     process.env.PUBLIC_URL + "/images/weather/Search_result.png";
+  const hangman_screenshot = process.env.PUBLIC_URL +"/images/hangman/hangman_logo.png";
   const imageUrls = [
     process.env.PUBLIC_URL + "/images/handyman/handyman-homepage.png",
     process.env.PUBLIC_URL + "/images/handyman/handymandashboard.png",
@@ -56,7 +57,7 @@ const Projects = () => {
     <div className="parallax-container parallax-container2">
       <div className="card">
         <div className="card-img">
-          <img src={handy_man_screenshot} alt="" srcset="" width={230} height={230}/>
+          <img src={handy_man_screenshot} alt="" srcset="" width={320} height={230}/>
         </div>
         <h3>HandyMan App</h3>
         <p>
@@ -75,8 +76,23 @@ const Projects = () => {
         </div>
       </div>
       <div className="card">
+        <div className="card-img"></div>
+        <h3>Todo Application</h3>
+        <p>
+        Introducing an interactive and dynamic Todo app that revolutionizes task management. This feature-rich app combines task creation, deletion, and organization  
+        </p>
+        <div>
+          <VPopup
+            heading={todo_heading}
+            description={todo_description}
+            github={todo_github}
+            video = {todo_video}
+          />
+        </div>
+      </div>
+      <div className="card">
         <div className="card-img">
-        <img src={weather_screenshot} alt="" srcset="" width={300} height={230}/>
+        <img src={weather_screenshot} alt="" srcset="" width={320} height={230}/>
 
         </div>
         <h3>Weather App</h3>
@@ -95,7 +111,9 @@ const Projects = () => {
         </div>
       </div>
       <div className="card">
-        <div className="card-img"></div>
+        <div className="card-img">
+          <img src={hangman_screenshot} width={320} height={230}></img>
+        </div>
         <h3>HangMan Game</h3>
         <p>
           Experience the timeless thrill of word-guessing with my Hangman Game
@@ -111,21 +129,7 @@ const Projects = () => {
           />
         </div>
       </div>
-      <div className="card">
-        <div className="card-img"></div>
-        <h3>Todo Application</h3>
-        <p>
-        Introducing an interactive and dynamic Todo app that revolutionizes task management. This feature-rich app combines task creation, deletion, and organization  
-        </p>
-        <div>
-          <VPopup
-            heading={todo_heading}
-            description={todo_description}
-            github={todo_github}
-            video = {todo_video}
-          />
-        </div>
-      </div>
+      
     </div>
   );
 };

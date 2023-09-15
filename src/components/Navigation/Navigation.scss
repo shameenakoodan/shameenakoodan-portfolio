@@ -72,5 +72,14 @@
       transform: rotate(360deg);
     }
   }
+  @media (max-width: 768px) {
+    .nav-container{
+      overflow: hidden;
+    position: relative;
+    }
+    .link{
+      display: none;
+    }
+  }
   
   

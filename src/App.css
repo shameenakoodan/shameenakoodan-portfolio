@@ -122,15 +122,15 @@ h3 {
 }
 
 .card:nth-of-type(2) .card-img {
- background-image: url(../public/images/weather/Weather_logo.png);
+  background-image: url(../public/images/Todo/Todo.png);
 }
 
 .card:nth-of-type(3) .card-img {
-  background-image: url(../public/images/hangman/hangman_logo.png);
+  background-image: url(../public/images/weather/Weather_logo.png);
 }
 
 .card:nth-of-type(4) .card-img {
-  background-image: url(../public/images/Todo/Todo.png);
+ /*background-image: url(../public/images/hangman/hangman_logo.png);*/
 }
 .App {
   text-align: center;

@@ -26,6 +26,9 @@ const Projects = () => {
   const todo_heading = "Todo - Streamline Your Life, One Task at a Time!";
   const todo_description = "Powered by React for frontend, Spring Boot with MySQL for backend, and featuring seamless task management, Todo application offers a comprehensive and user-friendly task management experience. This app empowers users to effortlessly organize their to-do lists, add new tasks, edit details, mark tasks as completed, and remove completed or unnecessary items. With a perfect fusion of frontend and backend technologies, Todo ensures a streamlined and responsive interface for users to prioritize tasks and stay in control of their daily commitments. Witness the efficiency of Spring Boot, MySQL, and React as they come together to simplify task management and boost productivity, making Todo the ultimate solution for keeping your life organized and tasks on track";
   const todo_github = "https://github.com/shameenakoodan/todo-frontend";
+  const todo_video =  process.env.PUBLIC_URL + "/videos/Todo.mov";
+  const handyman_video = process.env.PUBLIC_URL + "/videos/HandyMan.mov";
+  const handy_man_screenshot = process.env.PUBLIC_URL+"/images/handyman/handyman-homepage_50.png";
   const imageUrls = [
     process.env.PUBLIC_URL + "/images/handyman/handyman-homepage.png",
     process.env.PUBLIC_URL + "/images/handyman/handymandashboard.png",
@@ -53,7 +56,9 @@ const Projects = () => {
   return (
     <div className="parallax-container parallax-container2">
       <div className="card">
-        <div className="card-img"></div>
+        <div className="card-img">
+          <img src={handy_man_screenshot} alt="" srcset="" width={230} height={230}/>
+        </div>
         <h3>HandyMan App</h3>
         <p>
           Introducing HelpOnYourWay – a dynamic and user-friendly service
@@ -61,11 +66,12 @@ const Projects = () => {
           services.
         </p>
         <div>
-          <Popup
+          <VPopup
             imageUrls={imageUrls}
             heading={handyman_heading}
             description={handyman_description}
             github={handyman_github}
+            video = {handyman_video}
           />
         </div>
       </div>
@@ -114,6 +120,7 @@ const Projects = () => {
             heading={todo_heading}
             description={todo_description}
             github={todo_github}
+            video = {todo_video}
           />
         </div>
       </div>

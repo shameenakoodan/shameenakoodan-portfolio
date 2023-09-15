@@ -118,7 +118,7 @@ h3 {
 }
 
 .card:nth-of-type(1) .card-img {
- background-image: url(../public/images/logo_with_caption.png);
+/* background-image: url(../public/images/logo_with_caption.png);*/
 }
 
 .card:nth-of-type(2) .card-img {

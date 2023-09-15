@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import "./VPopUp.scss"; // Create this file in the same directory for styling
 import Carousel from "../Carousel/Carousel";
 
-const VPopup = ({ imageUrls, heading, description, github }) => {
+const VPopup = ({ imageUrls, heading, description, github,video }) => {
   const [isPopupOpen, setPopupOpen] = useState(false);
-    const todo_video =  process.env.PUBLIC_URL + "/videos/Todo.mov";
+ //   const todo_video =  process.env.PUBLIC_URL + "/videos/Todo.mov";
   const openPopup = () => {
     setPopupOpen(true);
   };
@@ -23,7 +23,7 @@ const VPopup = ({ imageUrls, heading, description, github }) => {
               &times;
             </span>
             <video controls autoplay width="600">
-              <source src={todo_video} type="video/mp4" />
+              <source src={video} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <div className="description">

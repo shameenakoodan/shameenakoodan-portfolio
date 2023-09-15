@@ -29,19 +29,18 @@ const Projects = () => {
   const todo_video =  process.env.PUBLIC_URL + "/videos/Todo.mov";
   const handyman_video = process.env.PUBLIC_URL + "/videos/HandyMan.mov";
   const handy_man_screenshot = process.env.PUBLIC_URL+"/images/handyman/handyman-homepage_50.png";
+  const weather_screenshot =     process.env.PUBLIC_URL + "/images/weather/Search_result.png";
   const imageUrls = [
     process.env.PUBLIC_URL + "/images/handyman/handyman-homepage.png",
     process.env.PUBLIC_URL + "/images/handyman/handymandashboard.png",
     process.env.PUBLIC_URL + "/images/handyman/handymansignup.png",
     process.env.PUBLIC_URL + "/images/handyman/login-all.png",
-    process.env.PUBLIC_URL + "/images/handyman/searchresult.png",
+    process.env.PUBLIC_URL + "/images/handyman/handyman_search.png",
     process.env.PUBLIC_URL + "/images/handyman/signup1.png",
     process.env.PUBLIC_URL + "/images/handyman/usersignup.png",
   ];
   const weatherUrls = [
     process.env.PUBLIC_URL + "/images/weather/index.png",
-    process.env.PUBLIC_URL + "/images/weather/mobile_index.png",
-    process.env.PUBLIC_URL + "/images/weather/mobile_search.png",
     process.env.PUBLIC_URL + "/images/weather/Search_result.png",
     process.env.PUBLIC_URL + "/images/weather/Withhistory.png",
   ];
@@ -66,7 +65,7 @@ const Projects = () => {
           services.
         </p>
         <div>
-          <VPopup
+          <Popup
             imageUrls={imageUrls}
             heading={handyman_heading}
             description={handyman_description}
@@ -76,7 +75,10 @@ const Projects = () => {
         </div>
       </div>
       <div className="card">
-        <div className="card-img"></div>
+        <div className="card-img">
+        <img src={weather_screenshot} alt="" srcset="" width={300} height={230}/>
+
+        </div>
         <h3>Weather App</h3>
         <p>
           An interactive and dynamic weather application that integrates

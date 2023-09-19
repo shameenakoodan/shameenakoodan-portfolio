@@ -6,7 +6,7 @@ const Navigation = ()=>{
   };
     return (
         <div>
-          <ul className="nav-container">
+          <ul>
           <li className="link" onClick={() => scrollToSection('about-me')}>About</li>
           <li className="link" onClick={() => scrollToSection('projects')}>Projects</li>
           <li className="link" onClick={() => scrollToSection('experience')}>Experience</li>

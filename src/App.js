@@ -8,11 +8,12 @@ import Skills from "./components/Skills/Skills";
 import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
 import Certification from "./components/Certification/Certification";
+import NavMenu from "./components/NavMenu/NavMenu";
 
 const App = () => {
   return (
     <div className="App">
-      <Navigation />
+      <NavMenu />
       <section className="parallax-container parallax-container1" id="about-me">
         <About />
       </section>

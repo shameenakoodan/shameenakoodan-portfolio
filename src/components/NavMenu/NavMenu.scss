@@ -1,0 +1,109 @@
+.navigation {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  background-color: #fff;
+  color: black;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+
+.brand-name {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+
+.navigation-menu {
+  margin-left: auto;
+  /* Add animation properties */
+  animation-duration: 0.5s; /* Adjust the duration as needed */
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+}
+
+.navigation-menu li {
+  /* removes default disc bullet for li tags and applies margin to left & right side */
+  list-style-type: none;
+  margin: 0 1rem;
+}
+
+.navigation-menu li a {
+  /* increases the surface area of the anchor tag to span more than just the anchor text */
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.hamburger {
+  /* removes default border on button element */
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #283b8b;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  /* positions the icon to the right and center aligns it vertically */
+  position: absolute;
+  top: 50%;
+  right: 52px;
+  transform: translateY(-50%);
+  display: none;
+}
+
+.hamburger:hover {
+  background-color: #2642af;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .navigation-menu.expanded {
+    display: block;
+    position: absolute;
+    top: 60px; /* Adjust the top position as needed */
+    left: 0; /* Ensure the menu starts from the left edge of the screen */
+    width: 100%; /* Take up the entire screen width */
+    background-color: white;
+    border-top: 1px solid black;
+    z-index: 999;
+    animation-name: slideIn;
+  }
+  .navigation-menu ul {
+    display: none;
+    flex-direction: column;
+    padding: 0; /* Remove padding */
+  }
+  .navigation-menu.expanded ul {
+    display: flex; /* Show the menu items when expanded */
+  }
+}
+/* Add the animations */
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}

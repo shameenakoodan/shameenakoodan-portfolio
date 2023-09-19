@@ -72,13 +72,13 @@
       transform: rotate(360deg);
     }
   }
+
   @media (max-width: 768px) {
-    .nav-container{
-      overflow: hidden;
-    position: relative;
-    }
-    .link{
-      display: none;
+    .bar {
+      width: 30px;
+      height: 3px;
+      background-color: #333;
+      margin: 4px 0;
     }
   }
   

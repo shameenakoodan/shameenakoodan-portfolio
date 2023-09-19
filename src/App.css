@@ -7,7 +7,7 @@
 body {
   margin: 0;
   font-family: Poppins, sans-serif;
-  background-color:#edf2f8 ;
+  background-color:#d7d6d6 ;
 }
 
 .parallax-container {
@@ -153,14 +153,14 @@ h3 {
 }
 #experience{
   color: black;
-  background-color: #edf2f8;
+  background-color: #d7d6d6;
 }
 .projects{
   height: 600px;
   background-color: #707a8a;
 }
 #skills{
-  background-color: #edf2f8;
+  background-color: #d7d6d6;
 }
 .awards{
   height: 600px;
@@ -248,5 +248,5 @@ h3 {
 #about-me{
   /*background: url(/public/images/creative-geometric-design-space_53876-89787.avif) no-repeat;
   */
-  background-color: #edf2f8;
+  background-color: #d7d6d6;
 }

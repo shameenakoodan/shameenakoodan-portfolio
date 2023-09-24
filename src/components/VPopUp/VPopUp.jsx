@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./VPopUp.scss"; // Create this file in the same directory for styling
-import Carousel from "../Carousel/Carousel";
 
 const VPopup = ({ imageUrls, heading, description, github,video }) => {
   const [isPopupOpen, setPopupOpen] = useState(false);

@@ -24,13 +24,20 @@ const Projects = () => {
   const hangman_heading = "Hangman Game - Wordplay Reimagined";
   const hangman_github = "https://github.com/shameenakoodan/HANGMAN.git";
   const todo_heading = "Todo - Streamline Your Life, One Task at a Time!";
-  const todo_description = "Powered by React for frontend, Spring Boot with MySQL for backend, and featuring seamless task management, Todo application offers a comprehensive and user-friendly task management experience. This app empowers users to effortlessly organize their to-do lists, add new tasks, edit details, mark tasks as completed, and remove completed or unnecessary items. With a perfect fusion of frontend and backend technologies, Todo ensures a streamlined and responsive interface for users to prioritize tasks and stay in control of their daily commitments. Witness the efficiency of Spring Boot, MySQL, and React as they come together to simplify task management and boost productivity, making Todo the ultimate solution for keeping your life organized and tasks on track";
+  const todo_description =
+    "Powered by React for frontend, Spring Boot with MySQL for backend, and featuring seamless task management, Todo application offers a comprehensive and user-friendly task management experience. This app empowers users to effortlessly organize their to-do lists, add new tasks, edit details, mark tasks as completed, and remove completed or unnecessary items. With a perfect fusion of frontend and backend technologies, Todo ensures a streamlined and responsive interface for users to prioritize tasks and stay in control of their daily commitments. Witness the efficiency of Spring Boot, MySQL, and React as they come together to simplify task management and boost productivity, making Todo the ultimate solution for keeping your life organized and tasks on track";
   const todo_github = "https://github.com/shameenakoodan/todo-frontend";
-  const todo_video =  process.env.PUBLIC_URL + "/videos/Todo.mov";
+  const todo_video = process.env.PUBLIC_URL + "/videos/Todo.mov";
   const handyman_video = process.env.PUBLIC_URL + "/videos/HandyMan.mov";
-  const handy_man_screenshot = process.env.PUBLIC_URL+"/images/handyman/handyman-homepage_50.png";
-  const weather_screenshot =     process.env.PUBLIC_URL + "/images/weather/Search_result.png";
-  const hangman_screenshot = process.env.PUBLIC_URL +"/images/hangman/hangman_logo.png";
+  const handy_man_screenshot =
+    process.env.PUBLIC_URL + "/images/handyman/handyman-homepage_50.png";
+  const weather_screenshot =
+    process.env.PUBLIC_URL + "/images/weather/Search_result.png";
+  const flag_screenshot =
+    process.env.PUBLIC_URL + "/images/flag/Front-desktop.png";
+  const flag_heading = "World Explorer - Discover Flags from Around the Globe";
+  const flag_description = "A dynamic and user-friendly application that features a comprehensive list of flags, easily filtered by region through a dropdown menu. Need to find a specific flag? No problem! A smart search box dynamically narrows down the list as you type. Click on any flag card to unveil its fascinating details in a convenient pop - up. Dive deep into the world of flags with just a click. And for the perfect ambiance, switch between our light and dark themes to suit your mood. Discover, learn, and explore the world's flags effortlessly with World Flag Explorer";
+  const flag_github = "https://github.com/shameenakoodan/restcountries-frontend";
   const imageUrls = [
     process.env.PUBLIC_URL + "/images/handyman/handyman-homepage.png",
     process.env.PUBLIC_URL + "/images/handyman/handymandashboard.png",
@@ -53,11 +60,28 @@ const Projects = () => {
     process.env.PUBLIC_URL + "/images/hangman/hangman_page5.png",
     process.env.PUBLIC_URL + "/images/hangman/hangman_page6.png",
   ];
+  const flagUrls = [
+    process.env.PUBLIC_URL + "/images/flag/Front-desktop.png",
+    process.env.PUBLIC_URL + "/images/flag/image1.png",
+    process.env.PUBLIC_URL + "/images/flag/image2.png",
+    process.env.PUBLIC_URL + "/images/flag/image3.png",
+    process.env.PUBLIC_URL + "/images/flag/image4.png",
+    process.env.PUBLIC_URL + "/images/flag/image5.png",
+ //   process.env.PUBLIC_URL + "/images/flag/image6.png",
+//    process.env.PUBLIC_URL + "/images/flag/image7.png",
+//    process.env.PUBLIC_URL + "/images/flag/image8.png",
+  ];
   return (
     <div className="parallax-container parallax-container2">
       <div className="card">
         <div className="card-img">
-          <img src={handy_man_screenshot} alt="" srcset="" width={320} height={230}/>
+          <img
+            src={handy_man_screenshot}
+            alt=""
+            srcset=""
+            width={320}
+            height={230}
+          />
         </div>
         <h3>HandyMan App</h3>
         <p>
@@ -71,7 +95,7 @@ const Projects = () => {
             heading={handyman_heading}
             description={handyman_description}
             github={handyman_github}
-            video = {handyman_video}
+            video={handyman_video}
           />
         </div>
       </div>
@@ -79,21 +103,28 @@ const Projects = () => {
         <div className="card-img"></div>
         <h3>Todo Application</h3>
         <p>
-        Introducing an interactive and dynamic Todo app that revolutionizes task management. This feature-rich app combines task creation, deletion, and organization  
+          Introducing an interactive and dynamic Todo app that revolutionizes
+          task management. This feature-rich app combines task creation,
+          deletion, and organization
         </p>
         <div>
           <VPopup
             heading={todo_heading}
             description={todo_description}
             github={todo_github}
-            video = {todo_video}
+            video={todo_video}
           />
         </div>
       </div>
       <div className="card">
         <div className="card-img">
-        <img src={weather_screenshot} alt="" srcset="" width={320} height={230}/>
-
+          <img
+            src={weather_screenshot}
+            alt=""
+            srcset=""
+            width={320}
+            height={230}
+          />
         </div>
         <h3>Weather App</h3>
         <p>
@@ -112,9 +143,29 @@ const Projects = () => {
       </div>
       <div className="card">
         <div className="card-img">
-          <img src={hangman_screenshot} width={320} height={230}></img>
+          <img src={flag_screenshot} width={320} height={230} alt="flag"></img>
         </div>
-        <h3>HangMan Game</h3>
+        <h3>World Flag Explorer</h3>
+        <p>
+          Introducing World Flag Explorer Embark on a global journey like never
+          before with World Flag Explorer – your passport to explore flags from
+          around the world.
+        </p>
+        <div>
+          <Popup
+            imageUrls={flagUrls}
+            heading={flag_heading}
+            description={flag_description}
+            github={flag_github}
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+export default Projects;
+/*
+<h3>World Flag Explorer</h3>
         <p>
           Experience the timeless thrill of word-guessing with my Hangman Game
           .Its single-page interface transitions between different stages
@@ -128,9 +179,4 @@ const Projects = () => {
             github={hangman_github}
           />
         </div>
-      </div>
-      
-    </div>
-  );
-};
-export default Projects;
+        */

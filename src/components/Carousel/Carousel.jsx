@@ -33,6 +33,7 @@ const Carousel = ({ slides,heading,description,github }) => {
         </h2>
         <br />
         {description}
+        <br />
         <a href = {github} target = '_blank' rel = 'noopener noreferrer'> Github </a > 
       </div>
     </div>

@@ -6,7 +6,7 @@ const Experience = () => {
     <div className="custom-font work-experience">
       <div className="skills-heading">Experience</div>
       <div className="exp-section">
-        <div className="left-exp heading-exp">Jul 2022 - Dec 2022</div>
+        <div className="left-exp heading-exp">Oct 2023 - Current</div>
         <div className="right-exp">
           <div className="heading-exp">
             The University of Texas - Software Developer
